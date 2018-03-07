@@ -1,0 +1,52 @@
+{
+    "workbench.colorTheme": "Slime (rainglow)",
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "support.type.builtin.class.flowtype",
+                    "support.type.builtin.primitive.flowtype",
+                    "support.type.class.flowtype",
+                    "meta.object.flowtype"
+                ],
+                "settings": {
+                    "foreground": "#28ecfa",
+                    "fontStyle": "italic",
+                }
+            },
+            {
+                "scope": [
+                    "storage.type.js",
+                    "storage.type.function.js",
+                    "string.quoted.module.js",
+                    "storage.type.function.arrow.js",
+                    "entity.name.tag.open.jsx",
+                    "entity.name.tag.close.jsx",
+                    "string.unquoted.js"
+                ],
+
+                "settings":{
+                    "foreground": "#cc8072",
+                }
+            },
+            {
+                "scope": [
+                    "string.quoted.template.js",
+                    "string.quoted.single.js",
+                    "string.quoted.double.json",
+                ],
+                "settings":{
+                    "foreground": "#a6e0b9",
+                }
+            }
+        ],
+    },
+    "window.zoomLevel": 0,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#c7af3f",
+        "sideBar.background": "#292d30",
+    }
+}
